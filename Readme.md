@@ -2,7 +2,7 @@
 - Built with ```CMake Presets``` without directly opening the ```Developer Command Prompt``` that comes with ```Visual Studio```.
 
 - [Details about vcvarsall.bat](https://learn.microsoft.com/en-us/cpp/build/cmake-presets-vs?view=msvc-170)
-- [Example CMakePresets.json](Example/CMakePresets.json)
+- [Example CMakePresets.json](example/CMakePresets.json)
 
 ### Installation
 
