@@ -1,6 +1,7 @@
 {
 	"shell_cmd": "echo Select build variant...",
 	"working_dir": "${folder:${project_path:${file_path}}}",
+	"word_wrap": false,
 	"variants": [
 		{
 			"name": "x64 Debug",
