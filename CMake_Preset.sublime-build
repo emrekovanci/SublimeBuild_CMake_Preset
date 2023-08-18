@@ -4,19 +4,19 @@
 	"variants": [
 		{
 			"name": "x64 Debug",
-			"shell_cmd": "\"${packages}/User/SublimeBuild_CMake_Preset/vcvarsallcall.bat\" x64 && cmake --preset=x64-debug && cmake --build --preset=x64-debug"
+			"shell_cmd": "\"${packages}/User/SublimeBuild_CMake_Preset/builder.bat\" x64 debug"
 		},
 		{
 			"name": "x64 Release",
-			"shell_cmd": "\"${packages}/User/SublimeBuild_CMake_Preset/vcvarsallcall.bat\" x64 && cmake --preset=x64-release && cmake --build --preset=x64-release"
+			"shell_cmd": "\"${packages}/User/SublimeBuild_CMake_Preset/builder.bat\" x64 release"
 		},
 		{
 			"name": "x86 Debug",
-			"shell_cmd": "\"${packages}/User/SublimeBuild_CMake_Preset/vcvarsallcall.bat\" x86 && cmake --preset=x86-debug && cmake --build --preset=x86-debug"
+			"shell_cmd": "\"${packages}/User/SublimeBuild_CMake_Preset/builder.bat\" x86 debug"
 		},
 		{
 			"name": "x86 Release",
-			"shell_cmd": "\"${packages}/User/SublimeBuild_CMake_Preset/vcvarsallcall.bat\" x86 && cmake --preset=x86-release && cmake --build --preset=x86-release"
+			"shell_cmd": "\"${packages}/User/SublimeBuild_CMake_Preset/builder.bat\" x86 release"
 		}
 	]
 }
